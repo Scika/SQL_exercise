@@ -1,7 +1,0 @@
-{
-    "git.ignoreLimitWarniung": true,
-    // bigqueryRunner fike-icon setting
-    "material-icon-theme.files.associations": {
-        "*.bqsql": "database"
-    },
-}
