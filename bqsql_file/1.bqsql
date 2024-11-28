@@ -3,9 +3,8 @@ SELECT
     * EXCEPT (revenue),
     revenue * 1.1 AS revenue_with_tax
 FROM
-    sample.sales
+sample.sales
 ORDER BY
     order_id
 LIMIT
     3;
-    
