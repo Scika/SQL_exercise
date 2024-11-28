@@ -13,4 +13,4 @@ WHERE
 ORDER BY
     birthday
 LIMIT
-    3
+    3;
