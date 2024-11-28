@@ -1,12 +1,12 @@
 SELECT
-    prefectuer,
+    prefecture,
     COUNT(DISTINCT user_id) AS users
 FROM
     sample.customers
 WHERE
     is_premium IS TRUE
 GROUP BY
-    prefectuer
+    prefecture
 ORDER BY
     2 DESC
 LIMIT
