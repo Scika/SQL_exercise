@@ -1,10 +1,12 @@
 // .vscode/setting.json
 {
     // Bigquery Runner
-    "bigqueryRunner.defaultDataset.projectId": "sql-book-435413",
+    //"bigqueryRunner.defaultDataset.projectId": "sql-book-435413",
+    "bigqueryRunner.projectId": "sql-book-435413"
     // 拡張子sqlファイルの言語モードをSQL(Bigquery)に指定
     "files.associations": {
-        "*.bqsql": "sql-bigquery"
+        "*.bqsql": "sql"
+        //"*.bqsql": "sql-bigquery"
     },
     // .bqsqlのファイルアイコン設定
     "material-icon-theme.files.associations": {
