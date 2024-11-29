@@ -6,7 +6,6 @@
     // 拡張子sqlファイルの言語モードをSQL(Bigquery)に指定
     "files.associations": {
         "*.bqsql": "sql"
-        //"*.bqsql": "sql-bigquery"
     },
     // .bqsqlのファイルアイコン設定
     "material-icon-theme.files.associations": {
